@@ -12,8 +12,8 @@
     "doc": "docs"
   },
   "scripts": {
+    "lint": "npm run lint --workspace=apps/backend && npm run lint --workspace=apps/frontend",
     "test": "npm run test --workspace=apps/backend -- --runInBand",
-    "lint": "npm run lint --workspace=apps/backend -- --no-fix && npm run lint --workspace=apps/frontend",
     "build": "npm run build --workspace=apps/backend && npm run build --workspace=apps/frontend"
   },
   "repository": {
