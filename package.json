@@ -13,7 +13,7 @@
   },
   "scripts": {
     "lint": "npm run lint --workspace=apps/backend && npm run lint --workspace=apps/frontend",
-    "test": "npm run test --workspace=apps/backend -- --runInBand",
+    "test": "npm run test --workspace=apps/backend",
     "build": "npm run build --workspace=apps/backend && npm run build --workspace=apps/frontend"
   },
   "repository": {
